@@ -25,7 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = "com.example.urovo_scanner"
     compileSdkVersion 30
+    
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
